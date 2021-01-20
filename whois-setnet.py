@@ -1,7 +1,9 @@
 #!/usr/local/bin/python3
 '''
-Network check tool checks an AS-SET's members
-to see if a network is included. Whois command currently runs
+Network check tool checks an AS-SET's members only
+to see if a network is included. If there are AS-SETs inside your AS-SET you will
+need to run it against any of those to check the members inside those AS-SETs.
+Whois command currently runs
 against rr.ntt.net.
 '''
 
